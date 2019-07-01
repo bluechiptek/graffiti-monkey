@@ -1,4 +1,4 @@
-Graffiti Monkey
+Graffiti Monkey - Fork by BCT - Enables Boto3
 ===============
 
 .. image:: https://badges.gitter.im/Join%20Chat.svg
@@ -90,19 +90,11 @@ and then it will set the tags on the EBS Snapshot
 Installation
 ------------
 
-You can install Graffiti Monkey using the usual PyPI channels. Example:
+Source Install 
 
 ::
 
-    sudo pip install graffiti_monkey
-
-You can find the package details here: https://pypi.python.org/pypi/graffiti_monkey
-
-Alternatively, if you prefer to install from source:
-
-::
-
-    git clone git@github.com:Answers4AWS/graffiti-monkey.git
+    git clone https://github.com/bluechiptek/graffiti-monkey
     cd graffiti-monkey
     python setup.py install
 
